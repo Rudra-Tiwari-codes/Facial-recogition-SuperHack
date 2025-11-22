@@ -1,0 +1,33 @@
+{
+    "camera_id": 0,
+    "model_path": "models",
+    "age_model_path": "models",
+    "recognition_threshold": 0.6,
+    "smart_home": {
+        "enabled": true,
+        "api_endpoint": "http://localhost:8080/api",
+        "features": {
+            "access_control": true,
+            "personalized_settings": true,
+            "presence_tracking": true
+        }
+    },
+    "users": {
+        "1": {
+            "name": "User 1",
+            "preferences": {
+                "lighting": "warm",
+                "temperature": 22,
+                "music_genre": "classical"
+            }
+        },
+        "2": {
+            "name": "User 2",
+            "preferences": {
+                "lighting": "cool",
+                "temperature": 20,
+                "music_genre": "pop"
+            }
+        }
+    }
+}
